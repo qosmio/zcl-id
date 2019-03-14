@@ -1311,6 +1311,11 @@
         "cmd":{"cmd0":0},
         "cmdRsp":null
     },
+    "manuSpecificOsram": {
+        "attrId":null,
+        "cmd":{"saveStartupParams":1,"resetStartupParams":2},
+        "cmdRsp":{"saveStartupParamsRsp":0}
+    },
     "manuSpecificPhilips": {
         "attrId":{
             "config":{"id":49,"type":"bitmap16"}},
